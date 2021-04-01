@@ -19,6 +19,12 @@ img.signin-img {
 }
 form.signin-form {
     min-width: 350px;
-    text-align: center;
+    /* text-align: center; */
     margin: auto;
+}
+ .btn.signing-btn {
+    color: #fff;
+    background-color: #d64829;
+    width: 100%;
+    margin-bottom: 1.2rem;
 }
