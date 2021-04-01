@@ -28,3 +28,9 @@ form.signin-form {
     width: 100%;
     margin-bottom: 1.2rem;
 }
+a.createAcc {
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
