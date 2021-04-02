@@ -15,12 +15,10 @@ img.signin-img {
     padding: 0 2rem 2rem;
     margin: auto;
     display: block;
-    /* width: 70%; */
+    /* width: 50%; */
 }
 form.signin-form {
     max-width: 350px;
-    /* text-align: center; */
-    /* width: 350px; */
     margin: auto;
 }
  .btn.signing-btn {
