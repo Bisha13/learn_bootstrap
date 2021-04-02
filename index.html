@@ -15,29 +15,54 @@
 
     <title>Hello, world!</title>
   </head>
-  <body class="sing-body">
+  <body class="signin-body">
     <div class="container signin-container">
       <div class="row">
         <div class="col"></div>
-        <div class="col-8">
+        <div class="col-sm-12 col-md-8">
           <div class="card signin-card">
-              <img src="assets/logo.png" alt="Лого девслопс" class="img-fluid signin-img">
-              <form class="signin-form">
-                <div class="form-group">
-                  <input type="email" class="form-control" id="emailInput" placeholder="Email">
-                </div>
-                <div class="form-group">
-                  <input type="password" class="form-control" id="passwordInput" placeholder="Password">
-                </div>
-                <button type="button" class="btn signing-btn btn-lg">Sing In</button>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck"> Remember me <a href="#">Need help?</a>
-                    </label>
-                  </div>
-              </form>
+              <div class="card-block">
+                <img
+                src="assets/logo.png"
+                alt="Лого девслопс"
+                class="img-fluid signin-img"
+              />
+
+              
+            <form class="signin-form">
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="emailInput"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="passwordInput"
+                  placeholder="Password"
+                />
+              </div>
+              <button type="button" class="btn signing-btn btn-lg">
+                Sing In
+              </button>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Remember me <a href="#">Need help?</a>
+                </label>
+              </div>
+            </form>
           </div>
-          <a href="#"class="createAcc"> Create new Account</a>
+        </div>
+          <a href="#" class="newAccount"> Create new Account</a>
         </div>
         <div class="col"></div>
       </div>

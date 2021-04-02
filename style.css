@@ -1,8 +1,8 @@
-.sing-body {
+.signin-body {
     background-color: #e6f2ff;
 }
 .signin-container {
-    margin-top: 8%;
+    margin-top: 15%;
 }
 .card.signin-card {
     padding: 40px 0 20px;
@@ -15,11 +15,12 @@ img.signin-img {
     padding: 0 2rem 2rem;
     margin: auto;
     display: block;
-    width: 70%;
+    /* width: 70%; */
 }
 form.signin-form {
-    min-width: 350px;
+    max-width: 350px;
     /* text-align: center; */
+    /* width: 350px; */
     margin: auto;
 }
  .btn.signing-btn {
@@ -28,7 +29,7 @@ form.signin-form {
     width: 100%;
     margin-bottom: 1.2rem;
 }
-a.createAcc {
+a.newAccount {
     font-size: 1.2rem;
     text-align: center;
     display: block;
