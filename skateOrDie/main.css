@@ -1,0 +1,14 @@
+.jumbotron {
+    /* background-color: #f4f4f4; */
+}
+.jumbotron .container {
+    padding: 5%;
+}
+.jumbotron .container h1, 
+.jumbotron .container p {
+    font-weight: 400;
+}
+.sectionLight {
+    background-color: #eceeef;
+    padding: 2em;
+}
