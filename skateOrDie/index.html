@@ -175,49 +175,72 @@
         </div>
       </div>
     </div>
-<div class="sectionLight">
-  <div class="row">
-    <div class="col-sm-12">
+    <div class="sectionLight">
       <div class="row">
-        <div class="col-sm-12 col-lg-4">
-          <img class="img-fluid imgCenter" src="assets/kickflip.jpg" alt="">
+        <div class="col-sm-12">
           <div class="row">
-            <div class="col-sm-12">
-            <button type="button" class="btn btn-danger btn-lg btnCenter">Kickflip</button>
-          </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4">
-          <img class="img-fluid imgCenter" src="assets/360flip.jpg" alt="">
-          <div class="row">
-            <div class="col-sm-12">
-            <button type="button" class="btn btn-danger btn-lg btnCenter">360 Flip</button>
-          </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-lg-4">
-          <img class="img-fluid imgCenter" src="assets/bscrook.jpg" alt="">
-          <div class="row">
-            <div class="col-sm-12">
-            <button type="button" class="btn btn-danger btn-lg btnCenter">bscrook</button>
-          </div>
+            <div class="col-sm-12 col-lg-4">
+              <img
+                class="img-fluid imgCenter"
+                src="assets/kickflip.jpg"
+                alt=""
+              />
+              <div class="row">
+                <div class="col-sm-12">
+                  <button
+                    type="button"
+                    class="btn btn-danger btn-lg btnCenter"
+                    data-bs-toggle="modal"
+                    data-bs-target="#kickflipModal"
+                  >
+                    Kickflip
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+              <img
+                class="img-fluid imgCenter"
+                src="assets/360flip.jpg"
+                alt=""
+              />
+              <div class="row">
+                <div class="col-sm-12">
+                  <button type="button" class="btn btn-danger btn-lg btnCenter"
+                  data-bs-toggle="modal"
+                    data-bs-target="#x360Modal">
+                    360 Flip
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+              <img
+                class="img-fluid imgCenter"
+                src="assets/bscrook.jpg"
+                alt=""
+              />
+              <div class="row">
+                <div class="col-sm-12">
+                  <button type="button" class="btn btn-danger btn-lg btnCenter"
+                  data-bs-toggle="modal"
+                    data-bs-target="#bscroocksModal">
+                    bscrook
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-
-
-
 
     <!-- Modal -->
     <div
       class="modal fade"
       id="coolStuffModal"
       tabindex="-1"
-      aria-labelledby="exampleModalLabel"
+      aria-labelledby="ModalLabel"
       aria-hidden="true"
     >
       <div class="modal-dialog">
@@ -272,6 +295,119 @@
             >
               Close
             </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal with kickflip video -->
+
+    <div
+      class="modal fade"
+      id="kickflipModal"
+      tabindex="-1"
+      aria-labelledby="kickflipModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="kickflipModalLabel">Cool kickflips</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/ilzy0viqVes" title="YouTube video" allowfullscreen></iframe>
+            </div>
+            <p>Kickflips are eady. Pop, flic, cathc, land. #BOOM</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Modal with 360 video -->
+    <div
+      class="modal fade"
+      id="x360Modal"
+      tabindex="-1"
+      aria-labelledby="x360ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="x360ModalLabel">Cool kickflips</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/ilzy0viqVes" title="YouTube video" allowfullscreen></iframe>
+            </div>
+            <p>360 flips are easy. Pop, scissors kick, cathc, land. #BOOM</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal with 360 video -->
+    <div
+      class="modal fade"
+      id="bscroocksModal"
+      tabindex="-1"
+      aria-labelledby="x360ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="x360ModalLabel">Cool kickflips</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/ilzy0viqVes" title="YouTube video" allowfullscreen></iframe>
+            </div>
+            <p>Backsides Crooks are sick! wow. such skate, much wow, kick, pop. </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
           </div>
         </div>
       </div>
